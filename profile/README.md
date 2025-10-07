@@ -66,7 +66,7 @@ Join our growing community of infrastructure engineers, Mac admins, and DevOps p
 ## 🔗 Quick Links
 
 - [Terraform Registry](https://registry.terraform.io/providers/deploymenttheory/jamfpro)
-- [Go Package Registry](https://pkg.go.dev/search?q=github.com%2Fdeploymenttheory)
+- [Go Package Registry]([https://pkg.go.dev/search?q=github.com%2Fdeploymenttheory](https://pkg.go.dev/search?limit=25&m=package&q=deploymenttheory))
 - [Documentation Hub](https://github.com/deploymenttheory/terraform-provider-jamfpro/docs)
 
 ---
