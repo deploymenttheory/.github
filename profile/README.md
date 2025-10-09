@@ -11,28 +11,17 @@ We believe in treating infrastructure and configuration the same way we treat ap
 ## 🛠️ What We Build
 
 ### Terraform Providers
-- **[terraform-provider-jamfpro](https://github.com/deploymenttheory/terraform-provider-jamfpro)** - Community Terraform provider for Jamf Pro, enabling Infrastructure as Code for Apple device management
-- **[terraform-provider-microsoft365](https://github.com/deploymenttheory/terraform-provider-microsoft365)** - Terraform provider for Microsoft 365 services
+- **[terraform-provider-jamfpro](https://github.com/deploymenttheory/terraform-provider-jamfpro)** - Community Terraform provider for Jamf Pro, enabling Config as Code for Apple device management
+- **[terraform-provider-microsoft365](https://github.com/deploymenttheory/terraform-provider-microsoft365)** - Community Terraform provider for Microsoft Services, enabling Config as Code for Modern Workplace teams
 
 ### API SDKs & Libraries
-- **[go-api-sdk-jamfpro](https://github.com/deploymenttheory/go-api-sdk-jamfpro)** - Comprehensive Go SDK for Jamf Pro API operations
-- **[go-api-sdk-sofa](https://github.com/deploymenttheory/go-api-sdk-sofa)** - Go SDK for SOFA (Scripted OS-Level Architecture) API
+- **[go-api-sdk-jamfpro](https://github.com/deploymenttheory/go-api-sdk-jamfpro)** - Go SDK for Jamf Pro API operations with over 700 functions
+- **[go-api-sdk-apple](https://github.com/deploymenttheory/go-api-sdk-apple)** - Go SDK for apple services including apple business manager and itunes
+- **[go-api-sdk-sofa](https://github.com/deploymenttheory/go-api-sdk-sofa)** - Go SDK for SOFA (Simple Organized Feed for Apple Software Updates) API
 
 ### DevOps Tools
 - **[macos-autopkg-factory](https://github.com/deploymenttheory/macos-autopkg-factory)** - Automated macOS package factory using AutoPkg
 - **[workplace-devtools-jamfpro](https://github.com/deploymenttheory/workplace-devtools-jamfpro)** - Developer tools for Jamf Pro environments
-
-## 🌟 Featured Project
-
-### Jamf Pro Terraform Provider
-Our flagship project brings Infrastructure as Code to Apple device management. With 70+ stars and growing adoption, this provider enables:
-
-- **GitOps Workflows** - Manage Jamf Pro configuration through version-controlled code
-- **Environment Replication** - Reproduce configurations across dev, staging, and production
-- **Automated Compliance** - Enforce policies at scale with built-in drift detection
-- **Disaster Recovery** - Rapidly restore or migrate tenant configurations
-
-[📖 Getting Started](https://registry.terraform.io/providers/deploymenttheory/jamfpro/latest/docs) | [🎮 Demo Repository](https://github.com/deploymenttheory/terraform-demo-jamfpro-v2)
 
 ## 🤝 Community & Support
 
@@ -56,21 +45,6 @@ Join our growing community of infrastructure engineers, Mac admins, and DevOps p
 3. **Join the community** - Connect with other practitioners and get support
 4. **Contribute** - Help us build better tools for everyone
 
-## 📊 By the Numbers
-
-- 🌟 **100+** GitHub stars across our repositories
-- 📦 **Thousands** of Terraform provider downloads
-- 🤝 **Active community** across multiple platforms
-- 🚀 **Production deployments** in organizations worldwide
-
-## 🔗 Quick Links
-
-- [Terraform Registry](https://registry.terraform.io/providers/deploymenttheory/jamfpro)
-- [Go Package Registry]([https://pkg.go.dev/search?q=github.com%2Fdeploymenttheory](https://pkg.go.dev/search?limit=25&m=package&q=deploymenttheory))
-- [Documentation Hub](https://github.com/deploymenttheory/terraform-provider-jamfpro/docs)
-
 ---
-
-**Ready to revolutionize your infrastructure management?** Start with our [Terraform Provider for Jamf Pro](https://github.com/deploymenttheory/terraform-provider-jamfpro) and join the Infrastructure as Code movement! 
 
 *Made with ❤️ by the Deployment Theory team*
