@@ -16,8 +16,10 @@ We believe in treating infrastructure and configuration the same way we treat ap
 
 ### API SDKs & Libraries
 - **[go-api-sdk-jamfpro](https://github.com/deploymenttheory/go-api-sdk-jamfpro)** - Go SDK for Jamf Pro API operations with over 700 functions
-- **[go-api-sdk-apple](https://github.com/deploymenttheory/go-api-sdk-apple)** - Go SDK for apple services including apple business manager and itunes
+- **[go-api-sdk-apple](https://github.com/deploymenttheory/go-api-sdk-apple)** - Go SDK for Apple services including Apple Business Manager and iTunes
 - **[go-api-sdk-sofa](https://github.com/deploymenttheory/go-api-sdk-sofa)** - Go SDK for SOFA (Simple Organized Feed for Apple Software Updates) API
+- **[go-api-sdk-workbrew](https://github.com/deploymenttheory/go-api-sdk-workbrew)** - Go SDK for Workbrew API for Homebrew fleet management
+- **[go-api-sdk-virustotal](https://github.com/deploymenttheory/go-api-sdk-virustotal)** - Go SDK for VirusTotal API v3 for threat intelligence and file/URL scanning
 
 ### DevOps Tools
 - **[macos-autopkg-factory](https://github.com/deploymenttheory/macos-autopkg-factory)** - Automated macOS package factory using AutoPkg
