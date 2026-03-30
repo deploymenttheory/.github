@@ -15,11 +15,11 @@ We believe in treating infrastructure and configuration the same way we treat ap
 - **[terraform-provider-microsoft365](https://github.com/deploymenttheory/terraform-provider-microsoft365)** - Community Terraform provider for Microsoft Services, enabling Config as Code for Modern Workplace teams
 
 ### API SDKs & Libraries
-- **[go-api-sdk-jamfpro](https://github.com/deploymenttheory/go-api-sdk-jamfpro)** - Go SDK for Jamf Pro API operations with over 700 functions
-- **[go-api-sdk-apple](https://github.com/deploymenttheory/go-api-sdk-apple)** - Go SDK for Apple services including Apple Business Manager and iTunes
-- **[go-api-sdk-sofa](https://github.com/deploymenttheory/go-api-sdk-sofa)** - Go SDK for SOFA (Simple Organized Feed for Apple Software Updates) API
-- **[go-api-sdk-workbrew](https://github.com/deploymenttheory/go-api-sdk-workbrew)** - Go SDK for Workbrew API for Homebrew fleet management
-- **[go-api-sdk-virustotal](https://github.com/deploymenttheory/go-api-sdk-virustotal)** - Go SDK for VirusTotal API v3 for threat intelligence and file/URL scanning
+- **[go-sdk-jamfpro-v2](https://github.com/deploymenttheory/go-sdk-jamfpro-v2)** - Go SDK for Jamf Pro API operations with over 700 functions
+- **[go-sdk-appleservices](https://github.com/deploymenttheory/go-sdk-appleservices)** - Go SDK for Apple services including Apple Business Manager and iTunes
+- **[go-sdk-sofa](https://github.com/deploymenttheory/go-sdk-sofa)** - Go SDK for SOFA (Simple Organized Feed for Apple Software Updates) API
+- **[go-sdk-workbrew](https://github.com/deploymenttheory/go-sdk-workbrew)** - Go SDK for Workbrew API for Homebrew fleet management
+- **[go-sdk-virustotal](https://github.com/deploymenttheory/go-sdk-virustotal)** - Go SDK for VirusTotal API v3 for threat intelligence and file/URL scanning
 
 ### DevOps Tools
 - **[macos-autopkg-factory](https://github.com/deploymenttheory/macos-autopkg-factory)** - Automated macOS package factory using AutoPkg
