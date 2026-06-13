@@ -15,7 +15,7 @@ We believe in treating infrastructure and configuration the same way we treat ap
 - **[terraform-provider-microsoft365](https://github.com/deploymenttheory/terraform-provider-microsoft365)** - Community Terraform provider for Microsoft Services, enabling Config as Code for Modern Workplace teams
 
 ### API SDKs & Libraries
-- **[go-bindings-macosplatform](https://github.com/deploymenttheory/go-sdk-jamfpro-v2)** - Complete Go <-> Objective-C / C bridge and bindings for macOS platform frameworks and libraries. 
+- **[go-bindings-macosplatform](https://github.com/deploymenttheory/go-bindings-macosplatform)** - Complete Go <-> Objective-C / C bridge and bindings for macOS platform frameworks and libraries. 
 - **[go-sdk-jamfpro-v2](https://github.com/deploymenttheory/go-sdk-jamfpro-v2)** - Go SDK for Jamf Pro API operations with over 700 functions
 - **[go-sdk-appleservices](https://github.com/deploymenttheory/go-sdk-appleservices)** - Go SDK for Apple services including Apple Business Manager, cdn services, notorization and iTunes
 - **[go-sdk-sofa](https://github.com/deploymenttheory/go-sdk-sofa)** - Go SDK for SOFA (Simple Organized Feed for Apple Software Updates) API
