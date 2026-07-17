@@ -14,12 +14,20 @@ We believe in treating infrastructure and configuration the same way we treat ap
 - **[terraform-provider-jamfpro](https://github.com/deploymenttheory/terraform-provider-jamfpro)** - Community Terraform provider for Jamf Pro, enabling Config as Code for Apple device management
 - **[terraform-provider-microsoft365](https://github.com/deploymenttheory/terraform-provider-microsoft365)** - Community Terraform provider for Microsoft Services, enabling Config as Code for Modern Workplace teams
 
-### API SDKs & Libraries
+### Apple Based API SDKs & Libraries
 - **[go-bindings-macosplatform](https://github.com/deploymenttheory/go-bindings-macosplatform)** - Complete Go <-> Objective-C / C bridge and bindings for macOS platform frameworks and libraries. 
 - **[go-sdk-jamfpro-v2](https://github.com/deploymenttheory/go-sdk-jamfpro-v2)** - Go SDK for Jamf Pro API operations with over 700 functions
 - **[go-sdk-appleservices](https://github.com/deploymenttheory/go-sdk-appleservices)** - Go SDK for Apple services including Apple Business Manager, cdn services, notorization and iTunes
 - **[go-sdk-sofa](https://github.com/deploymenttheory/go-sdk-sofa)** - Go SDK for SOFA (Simple Organized Feed for Apple Software Updates) API
 - **[go-sdk-workbrew](https://github.com/deploymenttheory/go-sdk-workbrew)** - Go SDK for Workbrew API for Homebrew fleet management
+
+### Windows Based API SDKs & Libraries
+- **[go-sdk-windowscsp](https://github.com/deploymenttheory/go-sdk-windowscsp)** - Go SDK for Windows Configuration Service Providers (CSPs), generated from Microsoft's DDF v2 schema with typed LCRUD operations for every CSP node and OMA-DM SyncML support
+- **[go-bindings-win32](https://github.com/deploymenttheory/go-bindings-win32)** - Go bindings for the Win32 API surface, generated from Microsoft's Windows metadata (winmd) with full ABI fidelity
+- **[go-bindings-wdk](https://github.com/deploymenttheory/go-bindings-wdk)** - Go bindings for the Windows Driver Kit (WDK) API surface, generated from Microsoft's driver metadata
+- **[go-bindings-wmi](https://github.com/deploymenttheory/go-bindings-wmi)** - Go bindings for WMI/CIM classes and the MDM bridge, generated from live schema captures for Windows device management and telemetry
+
+### Other
 - **[go-sdk-virustotal](https://github.com/deploymenttheory/go-sdk-virustotal)** - Go SDK for VirusTotal API v3 for threat intelligence and file/URL scanning
 
 ### DevOps Tools
