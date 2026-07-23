@@ -2,7 +2,7 @@
 
 **Infrastructure as Code. Configuration as Code. Everything as Code.**
 
-Welcome to Deployment Theory – where we build the tools that make infrastructure and configuration management simple, reliable, and scalable.
+Welcome to Deployment Theory - where we build the tools that aim to make infrastructure and configuration management simple, reliable, and scalable.
 
 ## 🎯 Our Mission
 
