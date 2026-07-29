@@ -32,7 +32,6 @@ Where we started: manage your device estate as version-controlled, peer-reviewed
 | **[terraform-training-jamfpro](https://github.com/deploymenttheory/terraform-training-jamfpro)** | Hands-on Terraform + GitOps training for workplace engineers | HCL | ![](https://img.shields.io/github/stars/deploymenttheory/terraform-training-jamfpro?style=flat&label=&color=444) |
 | **[terraform-demo-jamfpro-v2](https://github.com/deploymenttheory/terraform-demo-jamfpro-v2)** | Reference GitHub Actions + Terraform Cloud pipeline for Jamf Pro | HCL | ![](https://img.shields.io/github/stars/deploymenttheory/terraform-demo-jamfpro-v2?style=flat&label=&color=444) |
 | **[terraform-demo-microsoft365](https://github.com/deploymenttheory/terraform-demo-microsoft365)** | Reference GitLab-branching + Terraform pipeline for Microsoft 365 | HCL | ![](https://img.shields.io/github/stars/deploymenttheory/terraform-demo-microsoft365?style=flat&label=&color=444) |
-| **[jamftf-python-terraform-importer](https://github.com/deploymenttheory/jamftf-python-terraform-importer)** | Import an existing Jamf Pro estate into Terraform state | Python | ![](https://img.shields.io/github/stars/deploymenttheory/jamftf-python-terraform-importer?style=flat&label=&color=444) |
 
 ## ② Go API SDKs
 
