@@ -14,13 +14,9 @@ We started with Terraform providers for Jamf Pro and Microsoft 365. Today we're 
 
 ## Why Go
 
-Device management has historically been written in whatever language the vendor shipped an SDK in — PowerShell here, Python there, Swift or C when you need to touch the OS. That fragments tooling, testing and hiring. We picked one language and went all the way down.
+Device management has historically been written in whatever language the vendor shipped an SDK in (if one even exists). PowerShell here, Bash there, Swift or .Net when you need to touch the OS. This fragments tooling, testing and hiring. We picked one language and have gone all in.
 
-- **One static binary, every platform.** Cross-compile from CI, ship a single artifact to macOS, Windows and Linux. No runtime, no interpreter, no dependency chain on the endpoint.
-- **Typed, not stringly-typed.** API surfaces and OS APIs are generated from vendor metadata — win32metadata, DDF v2, Clang ASTs, OpenAPI specs — so mistakes surface at compile time, not at 3am on a production estate.
-- **Fast enough to run at fleet scale.** Concurrency is a language primitive. Iterating thousands of devices is a `for` loop and a goroutine pool, not a batching strategy.
-- **Testable like real software.** Unit tests, race detection, fuzzing, coverage and static analysis are standard toolchain, so device automation gets the same rigour as application code.
-- **It reaches the metal.** With `cgo` and `purego` we bind Win32, WinRT, the WDK and macOS frameworks directly. Work that used to require C, Swift or .NET now happens in the same language as the rest of the stack.
+- **One static binary, covers every platform.** Cross-compile from CI, ship a single artifact to macOS, Windows and Linux. No runtime, no interpreter, no dependency chain on the endpoint.
 
 ---
 
