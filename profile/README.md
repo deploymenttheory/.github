@@ -20,21 +20,6 @@ Device management has historically been written in whatever language the vendor 
 
 ---
 
-## Start here
-
-New to the org? Find your row.
-
-| If you… | Go to | Why |
-|---|---|---|
-| Manage Apple devices and want config-as-code | **[terraform-provider-jamfpro](https://github.com/deploymenttheory/terraform-provider-jamfpro)** | The community Jamf Pro provider — classic and Jamf Pro APIs, used on production estates |
-| Manage Windows / M365 and want the same | **[terraform-provider-microsoft365](https://github.com/deploymenttheory/terraform-provider-microsoft365)** | Intune, Entra ID and Graph (v1.0 *and* beta) as reviewed, versioned code |
-| Are writing Go against Jamf Pro | **[go-sdk-jamfpro-v2](https://github.com/deploymenttheory/go-sdk-jamfpro-v2)** | Full API surface, 700+ functions. Supersedes the original SDK |
-| Need Windows APIs from Go, without cgo gymnastics | **[go-bindings-win32](https://github.com/deploymenttheory/go-bindings-win32)** | Every function, struct, enum and COM interface, generated from Microsoft's own metadata |
-| Need macOS frameworks from Go, without Swift | **[go-bindings-macosplatform](https://github.com/deploymenttheory/go-bindings-macosplatform)** | Go ↔ Objective-C / C bridge over purego and cgo |
-| Need to read or build Apple disk images off a Mac | **[go-apfs-v2](https://github.com/deploymenttheory/go-apfs-v2)** | Pure-Go APFS and HFS+, read *and* write, on Linux and Windows CI |
-| Want an AI agent to actually drive a Windows desktop | **[windows-mcp-server](https://github.com/deploymenttheory/windows-mcp-server)** | MCP over the accessibility tree — no computer-vision model required |
-| Want to learn Terraform + GitOps for device management | **[terraform-training-jamfpro](https://github.com/deploymenttheory/terraform-training-jamfpro)** | Hands-on course written for workplace engineers, not cloud architects |
-
 **Status labels** used throughout:
 ![](https://img.shields.io/badge/status-GA-3FB950) production-ready, stable API &nbsp;·&nbsp;
 ![](https://img.shields.io/badge/status-preview-58A6FF) usable now, API may still move &nbsp;·&nbsp;
@@ -42,15 +27,13 @@ New to the org? Find your row.
 
 ---
 
-## Work we believe is a first
-
-Not adjectives — claims we'll defend.
+## Work we're proud of
 
 **Pure-Go APFS, read *and* write, without a Mac.**
 [go-apfs-v2](https://github.com/deploymenttheory/go-apfs-v2) mounts DMGs and raw images, unlocks FileVault volumes, and writes populated volumes, snapshots, volume groups and transparent compression. Validated against Apple's own `fsck_apfs` and `hdiutil`, plus Linux `apfsck`. Linux CI runners can now do work that previously demanded Apple hardware.
 
 **Pure-Go TPM 2.0.**
-[go-sdk-vtpm2](https://github.com/deploymenttheory/go-sdk-vtpm2) is a software vTPM built from the TCG specification — measured boot, BitLocker sealing and attestation for Windows 11 guests under QEMU. No `swtpm`, no C dependency.
+[go-sdk-vtpm2](https://github.com/deploymenttheory/go-sdk-vtpm2) is a pure go software vTPM built from the TCG specification — measured boot, BitLocker sealing and attestation for Windows 11 guests. No `swtpm`, no C dependency.
 
 **Windows install media with zero external tooling.**
 [go-sdk-winmediafoundry](https://github.com/deploymenttheory/go-sdk-winmediafoundry) acquires and builds Windows installation media with no wimlib, no DISM, no oscdimg and no cabextract. One binary, cross-platform.
@@ -68,12 +51,12 @@ Not adjectives — claims we'll defend.
 
 ## Config as Code — Terraform
 
-Where we started: manage your device estate as version-controlled, peer-reviewed, pipeline-deployed code.
+Manage your modern workplace estate as version-controlled, peer-reviewed, pipeline-deployed code.
 
 | Repository | Reach for it when | Status |
 |---|---|:--:|
-| **[terraform-provider-jamfpro](https://github.com/deploymenttheory/terraform-provider-jamfpro)** | You want your Jamf Pro estate defined as code across the classic and Jamf Pro APIs | ![](https://img.shields.io/badge/status-preview-58A6FF) |
-| **[terraform-provider-microsoft365](https://github.com/deploymenttheory/terraform-provider-microsoft365)** | You need Intune, Entra ID and Graph (v1.0 + beta) under Terraform | ![](https://img.shields.io/badge/status-experimental-EAAA32) |
+| **[terraform-provider-jamfpro](https://github.com/deploymenttheory/terraform-provider-jamfpro)** | The community Jamf Pro tf provider for classic and Jamf Pro APIs | ![](https://img.shields.io/badge/status-preview-58A6FF) |
+| **[terraform-provider-microsoft365](https://github.com/deploymenttheory/terraform-provider-microsoft365)** | The community M365 tf provider for Graph v1.0 *and* beta APIs | ![](https://img.shields.io/badge/status-experimental-EAAA32) |
 | **[terraform-provider-thousandeyes](https://github.com/deploymenttheory/terraform-provider-thousandeyes)** | You manage ThousandEyes network monitoring alongside the estate | ![](https://img.shields.io/badge/status-experimental-EAAA32) |
 | **[terraform-plugin-framework-codegen](https://github.com/deploymenttheory/terraform-plugin-framework-codegen)** | You're building your own provider and want the boilerplate generated | ![](https://img.shields.io/badge/status-experimental-EAAA32) |
 
@@ -111,9 +94,9 @@ Idiomatic Go generated from vendor metadata — the whole OS API surface, typed 
 
 | Repository | Reach for it when | Status |
 |---|---|:--:|
+| **[go-bindings-macosplatform](https://github.com/deploymenttheory/go-bindings-macosplatform)** | You need macOS frameworks from Go, over a purego/cgo Objective-C bridge | ![](https://img.shields.io/badge/status-preview-58A6FF) |
 | **[go-bindings-win32](https://github.com/deploymenttheory/go-bindings-win32)** | You need any Win32 API — every function, struct, enum and COM interface, from win32metadata | ![](https://img.shields.io/badge/status-preview-58A6FF) |
 | **[go-bindings-winrt](https://github.com/deploymenttheory/go-bindings-winrt)** | You need modern Windows features — toasts, Bluetooth LE, Windows Hello, MDM/provisioning | ![](https://img.shields.io/badge/status-preview-58A6FF) |
-| **[go-bindings-macosplatform](https://github.com/deploymenttheory/go-bindings-macosplatform)** | You need macOS frameworks from Go, over a purego/cgo Objective-C bridge | ![](https://img.shields.io/badge/status-preview-58A6FF) |
 | **[go-bindings-wmi](https://github.com/deploymenttheory/go-bindings-wmi)** | You want typed WMI / CIM classes instead of hand-rolled COM plumbing | ![](https://img.shields.io/badge/status-GA-3FB950) |
 | **[go-bindings-wdk](https://github.com/deploymenttheory/go-bindings-wdk)** | You're working against the Windows Driver Kit surface (`Windows.Wdk.*`) | ![](https://img.shields.io/badge/status-preview-58A6FF) |
 | **[go-bindings-windowsappsdk](https://github.com/deploymenttheory/go-bindings-windowsappsdk)** | You're building a modern Windows desktop app in Go | ![](https://img.shields.io/badge/status-experimental-EAAA32) |
@@ -138,7 +121,6 @@ Where the bindings get used: filesystems, firmware, provisioning and install med
 | Repository | Reach for it when | Status |
 |---|---|:--:|
 | **[windows-mcp-server](https://github.com/deploymenttheory/windows-mcp-server)** | You want an AI agent to drive Windows through the accessibility tree — UI automation, input, registry, PowerShell, no vision model | ![](https://img.shields.io/badge/status-experimental-EAAA32) |
-| **[jamfpro-mcp-server](https://github.com/deploymenttheory/jamfpro-mcp-server)** | You want an agent to query and act on a Jamf Pro estate | ![](https://img.shields.io/badge/status-experimental-EAAA32) |
 
 <details>
 <summary><b>Everything else</b> — utilities, and superseded projects kept for reference</summary>
