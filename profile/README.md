@@ -135,24 +135,16 @@ Where the bindings get used: filesystems, firmware, provisioning and install med
 - [workplace-devtools-jamfpro](https://github.com/deploymenttheory/workplace-devtools-jamfpro) — assorted Jamf Pro developer tooling
 - [go-api-http-client-integrations](https://github.com/deploymenttheory/go-api-http-client-integrations) — auth integrations for `go-api-http-client`
 
-**Superseded — start on the newer project instead**
-
-- [go-api-sdk-jamfpro](https://github.com/deploymenttheory/go-api-sdk-jamfpro) → **[go-sdk-jamfpro-v2](https://github.com/deploymenttheory/go-sdk-jamfpro-v2)**
-- [go-apfs](https://github.com/deploymenttheory/go-apfs) → **[go-apfs-v2](https://github.com/deploymenttheory/go-apfs-v2)**
-- [terraform-demo-jamfpro](https://github.com/deploymenttheory/terraform-demo-jamfpro) → **[terraform-demo-jamfpro-v2](https://github.com/deploymenttheory/terraform-demo-jamfpro-v2)**
-- [terraform-importer-jamfpro](https://github.com/deploymenttheory/terraform-importer-jamfpro), [jamftf-python-terraform-importer](https://github.com/deploymenttheory/jamftf-python-terraform-importer) — earlier import tooling
-- [go-api-sdk-mitrecve](https://github.com/deploymenttheory/go-api-sdk-mitrecve) → **[go-sdk-cve](https://github.com/deploymenttheory/go-sdk-cve)**
-
 </details>
 
 ---
 
 ## Principles
 
-- **Everything as code** — if it can be configured, it should be versioned, tested and automated
-- **Generated from source of truth** — vendor metadata, not hand-transcribed docs that drift
-- **Cross-platform by default** — macOS and Windows are first-class, never afterthoughts
-- **Built in the open** — open source, community-first, no vendor gatekeeping
+- **Everything as code** : if it can be configured, it should be versioned, tested and automated
+- **Generated from source of truth** : vendor metadata, not hand-transcribed docs that drift
+- **Cross-platform by default** : macOS and Windows parity by design, never as an afterthought
+- **Built in the open** : open source, community-first, minimal vendor gatekeeping
 
 ## Community & contributing
 
@@ -165,4 +157,4 @@ Built for the community, by the community. Mac admins, Windows endpoint engineer
 
 ---
 
-*Made with ❤️ by the Deployment Theory community*
+*Made with ❤️ by the Deployment Theory team*
