@@ -1,6 +1,6 @@
 # Deployment Theory
 
-### Endpoint management, rebuilt as Go engineering.
+### the Modern Workplace rebuilt on go(lang).
 
 Open-source building blocks for the modern workplace — **from the Terraform plan all the way down to the Win32 syscall.**
 
