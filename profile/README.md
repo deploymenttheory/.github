@@ -58,7 +58,7 @@ Manage your modern workplace estate as version-controlled, peer-reviewed, pipeli
 | **[terraform-provider-jamfpro](https://github.com/deploymenttheory/terraform-provider-jamfpro)** | The community Jamf Pro tf provider for classic and Jamf Pro APIs | ![](https://img.shields.io/badge/status-preview-58A6FF) |
 | **[terraform-provider-microsoft365](https://github.com/deploymenttheory/terraform-provider-microsoft365)** | The community M365 tf provider for Graph v1.0 *and* beta APIs | ![](https://img.shields.io/badge/status-experimental-EAAA32) |
 | **[terraform-provider-thousandeyes](https://github.com/deploymenttheory/terraform-provider-thousandeyes)** | You manage ThousandEyes network monitoring alongside the estate | ![](https://img.shields.io/badge/status-experimental-EAAA32) |
-| **[terraform-plugin-framework-codegen](https://github.com/deploymenttheory/terraform-plugin-framework-codegen)** | You're building your own provider and want the boilerplate generated | ![](https://img.shields.io/badge/status-experimental-EAAA32) |
+| **[terraform-plugin-framework-codegen](https://github.com/deploymenttheory/terraform-plugin-framework-codegen)** | You have an Open Api 3 spec and wnat to programatically build a terraform provider | ![](https://img.shields.io/badge/status-experimental-EAAA32) |
 
 **Learn and copy:**
 [terraform-training-jamfpro](https://github.com/deploymenttheory/terraform-training-jamfpro) — hands-on Terraform + GitOps course for workplace engineers ·
