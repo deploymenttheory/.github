@@ -95,11 +95,11 @@ Idiomatic Go generated from vendor metadata — the whole OS API surface, typed 
 | Repository | Reach for it when | Status |
 |---|---|:--:|
 | **[go-bindings-macosplatform](https://github.com/deploymenttheory/go-bindings-macosplatform)** | You need macOS frameworks from Go, over a purego/cgo Objective-C bridge | ![](https://img.shields.io/badge/status-preview-58A6FF) |
-| **[go-bindings-win32](https://github.com/deploymenttheory/go-bindings-win32)** | You need any Win32 API — every function, struct, enum and COM interface, from win32metadata | ![](https://img.shields.io/badge/status-preview-58A6FF) |
+| **[go-bindings-win32](https://github.com/deploymenttheory/go-bindings-win32)** | You need any Win32 API — every function, struct, enum and COM interface, from win32metadata | ![](https://img.shields.io/badge/status-GA-3FB950) |
 | **[go-bindings-winrt](https://github.com/deploymenttheory/go-bindings-winrt)** | You need modern Windows features — toasts, Bluetooth LE, Windows Hello, MDM/provisioning | ![](https://img.shields.io/badge/status-preview-58A6FF) |
 | **[go-bindings-wmi](https://github.com/deploymenttheory/go-bindings-wmi)** | You want typed WMI / CIM classes instead of hand-rolled COM plumbing | ![](https://img.shields.io/badge/status-GA-3FB950) |
 | **[go-bindings-wdk](https://github.com/deploymenttheory/go-bindings-wdk)** | You're working against the Windows Driver Kit surface (`Windows.Wdk.*`) | ![](https://img.shields.io/badge/status-preview-58A6FF) |
-| **[go-bindings-windowsappsdk](https://github.com/deploymenttheory/go-bindings-windowsappsdk)** | You're building a modern Windows desktop app in Go | ![](https://img.shields.io/badge/status-experimental-EAAA32) |
+| **[go-bindings-windowsappsdk](https://github.com/deploymenttheory/go-bindings-windowsappsdk)** | You're building a modern Windows desktop app in Go | ![](https://img.shields.io/badge/status-preview-58A6FF) |
 | **[go-winmd](https://github.com/deploymenttheory/go-winmd)** | You're generating your own bindings — this is the shared metadata parser underneath all of the above | ![](https://img.shields.io/badge/status-GA-3FB950) |
 
 ## Systems & OS-level tooling
