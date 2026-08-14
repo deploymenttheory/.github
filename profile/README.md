@@ -4,7 +4,7 @@
 
 Open-source building blocks for the modern workplace — **from the Terraform plan all the way down to the Win32 syscall.**
 
-`macOS` · `Windows` · `Apple Business Manager` · `Jamf Pro` · `Jamf Protect` · `Intune / Microsoft 365` · `Entra ID`
+`Terraform` · `macOS` · `Windows` · `Jamf Pro` · `Jamf Protect` · `Intune / Microsoft 365` · `Entra ID`
 
 > **Who it's for** — Workplace and EUC platform teams who want to manage devices the way software teams ship code: versioned, tested, reviewed and automated.
 
