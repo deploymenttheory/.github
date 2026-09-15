@@ -8,7 +8,7 @@ Open-source building blocks for the modern workplace — **from the Terraform pl
 
 > **Who it's for** — Workplace and EUC platform teams who want to manage devices the way software teams ship code: versioned, tested, reviewed and automated.
 
-We started with Terraform providers for Jamf Pro and Microsoft 365. Today we're a full-stack Go ecosystem for endpoint management, covering every layer between your pipeline and the operating system.
+We started with Terraform providers for Jamf Pro and Microsoft 365. Today we're provide full-stack Go tools, libraries and bindings for endpoint management, covering every layer between your pipeline and the operating system.
 
 ---
 
