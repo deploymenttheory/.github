@@ -4,7 +4,7 @@
 
 Open-source building blocks for the modern workplace — **from the Terraform plan all the way down to the Win32 syscall.**
 
-`Terraform` · `macOS` · `Windows` · `Jamf Pro` · `Jamf Protect` · `Intune / Microsoft 365` · `Entra ID`
+`Terraform` · `macOS` · `Windows` · `Device Management` · `Microsoft 365` · `Entra ID`
 
 > **Who it's for** — Workplace and EUC platform teams who want to manage devices the way software teams ship code: versioned, tested, reviewed and automated.
 
@@ -14,7 +14,7 @@ We started with Terraform providers for Jamf Pro and Microsoft 365. Today we're 
 
 ## Why Go
 
-Device management has historically been written in whatever language the vendor shipped an SDK in (if one even exists). PowerShell here, Bash there, Swift or .Net when you need to touch the OS. This fragments tooling, testing and hiring. We picked one language and have gone all in.
+Device management has historically been written in whatever language the vendor shipped an SDK in (if one even exists). PowerShell here, Bash there, Swift or .Net when you need to touch the OS. This fragments tooling, testing and hiring. We have picked one language and stuck with it for every project.
 
 - **One static binary, covers every platform.** Cross-compile from CI, ship a single artifact to macOS, Windows and Linux. No runtime, no interpreter, no dependency chain on the endpoint.
 
